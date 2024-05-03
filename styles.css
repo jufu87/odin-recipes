@@ -1,0 +1,46 @@
+body {
+    font-size: 18px;
+    font-family: Verdana, Tahoma, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(62, 62, 62);
+    color: white;
+    text-wrap: balance;
+}
+
+img {
+    border-style: groove;
+}
+
+a:link {
+    color: rgb(102, 133, 224);
+  }
+
+a:visited {
+    color: rgb(50, 100, 170);
+}
+
+a:hover {
+    color: rgb(109, 133, 166);
+}
+
+strong,
+h3 {
+    color: rgb(170, 185, 202);
+    text-decoration: underline;
+}
+
+h3 em {
+    color: rgb(49, 120, 150);
+}
+
+.para {
+    font-style: italic;
+}
+
+.para2 {
+    font-size: 22px;
+}
+
+.para.para2 {
+    font-weight: bold;
+}
