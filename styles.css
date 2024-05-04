@@ -1,4 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0 auto;
     font-size: 18px;
     font-family: Verdana, Tahoma, sans-serif;
     line-height: 1.5;
@@ -7,8 +12,16 @@ body {
     text-wrap: balance;
 }
 
-img {
-    border-style: groove;
+.content-index {
+    max-width: 960;
+    text-align: center;
+    margin: auto;
+}
+
+
+.links-home {
+    display: inline-block;
+    text-align: left;
 }
 
 a:link {
@@ -44,3 +57,4 @@ h3 em {
 .para.para2 {
     font-weight: bold;
 }
+
