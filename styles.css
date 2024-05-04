@@ -12,7 +12,7 @@ body {
     text-wrap: balance;
 }
 
-.content-index {
+div.content-index {
     max-width: 960;
     text-align: center;
     margin: auto;
@@ -39,6 +39,10 @@ div.banner {
     width: 300px;
     margin: 5px;
     border: 2px groove black;
+}
+
+.banner-image:hover {
+    opacity: 0.7;
 }
 
 .links-home {
