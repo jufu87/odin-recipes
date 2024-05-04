@@ -4,11 +4,11 @@
 
 body {
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 16px;
     font-family: Verdana, Tahoma, sans-serif;
     line-height: 1.5;
     background-color: rgb(62, 62, 62);
-    color: white;
+    color: rgb(176, 170, 159);
     text-wrap: balance;
 }
 
@@ -18,8 +18,33 @@ body {
     margin: auto;
 }
 
+div.title-div {
+    margin: 20px 10px 20px 10px;
+    background-color: rgb(68, 68, 78);
+    border: 2px groove black;
+}
+
+.title-index {
+    font-style: italic;
+    margin: 0px;
+}
+
+div.banner {
+    background-color: rgb(68, 68, 78);
+    border: 2px groove black;
+    margin: 0 10px 0 10px;
+}
+
+.banner-image {
+    width: 300px;
+    margin: 5px;
+    border: 2px groove black;
+}
 
 .links-home {
+    background-color: rgb(68, 68, 78);
+    border: 2px groove black;
+    padding: 2px 20px 2px 20px;
     display: inline-block;
     text-align: left;
 }
