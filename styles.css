@@ -47,22 +47,40 @@ div.banner {
 
 .links-home {
     background-color: rgb(68, 68, 78);
+    width: auto;
     border: 2px groove black;
+    margin-top: 5px;
     padding: 2px 20px 2px 20px;
     display: inline-block;
-    text-align: left;
+    text-align: center;
+}
+
+.links-home button {
+    border-style:groove;
+    width: 300px;
+    background-color: rgb(62, 62, 62);
+    font-size: 18px;
+    margin: 0 5px 0 5px;
+}
+
+button:hover {
+    opacity: 0.5;
 }
 
 a:link {
     color: rgb(102, 133, 224);
+    text-decoration: none;
   }
 
 a:visited {
-    color: rgb(50, 100, 170);
+    color: rgb(109, 133, 166);
+    
+    text-decoration: none;
 }
 
 a:hover {
-    color: rgb(109, 133, 166);
+    color: rgb(98, 89, 190);
+    text-decoration: none;
 }
 
 strong,
