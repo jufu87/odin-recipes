@@ -35,13 +35,13 @@
 }
 
 .risotto {
-    flex: 1 1 300px;
+    flex: 1 1 200px;
 }
 .chili {
-    flex: 1 1 300px;
+    flex: 1 1 200px;
 }
 .jollof {
-    flex: 1 1 300px;
+    flex: 1 1 200px;
 }
 
 .images img:hover {
