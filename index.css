@@ -1,0 +1,92 @@
+.content-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-div {
+    display: flex;
+    margin: 20px 10px 20px 10px;
+    background-color: rgb(68, 68, 78);
+    border: 2px groove black;
+    justify-content: center;    
+}
+
+.title-index {
+    font-style: italic;
+    margin: 0px;
+}
+
+.images {
+    display: flex;
+    min-width: 0;
+    justify-content: center;
+    background-color: rgb(68, 68, 78);
+    border: 2px groove black;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.images img {
+    min-width: 0;
+    max-width: 640px;
+    border: 2px groove black;
+       
+}
+
+.risotto {
+    flex: 1 1 300px;
+}
+.chili {
+    flex: 1 1 300px;
+}
+.jollof {
+    flex: 1 1 300px;
+}
+
+.images img:hover {
+    opacity: 0.7;
+}
+
+.recipe-links {
+    display: flex;
+    background-color: rgb(68, 68, 78);
+    border: 2px groove black;
+    font-style: italic;
+    margin: 10px;
+    padding: 0;
+    list-style-type: none;
+    font-size: 1.5em;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.recipe-links li {
+    max-width: 640px;
+    justify-content: cen;
+
+}
+
+.risotto-link {
+    flex: 1 1 0;
+    
+}
+
+.chili-link {
+    flex: 1 1 0;
+}
+
+.jollof-link {
+    flex: 1 1 0;
+}
+
+.recipe-links a:link {
+    color: rgb(176, 170, 159);
+    text-decoration: none;
+}
+
+.recipe-links a:hover {
+    color: rgb(112, 108, 100);
+    text-decoration: none;
+}
